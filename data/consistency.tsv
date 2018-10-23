@@ -1,0 +1,23 @@
+CHEMICAL-entities-after-GENES
+group	PMID	term-number	type	i	text
+training	19275550	T13	CHEMICAL	(883, 944)	acarbose has been shown to improve insulin resistance in vivo
+development	8425287	T42	CHEMICAL	(1690, 1701)	competitive
+
+descending-relations
+group	PMID	CPR	eval	CPI	arg1-tn	arg1-type	arg1-i	arg1-text	arg2-tn	arg2-type	arg2-i	arg2-text
+
+erroneous-relations
+group	PMID	CPR	eval	CPI	arg1-tn	arg1-type	arg1-i	arg1-text	arg2-tn	arg2-type	arg2-i	arg2-text
+
+duplicated-relations
+group	PMID	CPR	eval	CPI	arg1-tn	arg1-type	arg1-i	arg1-text	arg2-tn	arg2-type	arg2-i	arg2-text
+
+descending-gold_standard
+group	PMID	CPR	arg1-tn	arg1-type	arg1-i	arg1-text	arg2-tn	arg2-type	arg2-i	arg2-text
+
+erroneous-gold_standard
+group	PMID	CPR	arg1-tn	arg1-type	arg1-i	arg1-text	arg2-tn	arg2-type	arg2-i	arg2-text
+
+duplicated-gold_standard
+group	PMID	CPR	arg1-tn	arg1-type	arg1-i	arg1-text	arg2-tn	arg2-type	arg2-i	arg2-text
+
